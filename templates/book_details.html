@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <img id="logo" src="../static/logo.png" alt="A description of the image">
+
+    <div id="book-details">
+      <h1>Book Details</h1>
+      <ul>
+        <li><strong>Title:</strong> {{ book_details['Title'] }}</li>
+        <li><strong>Author:</strong> {{ book_details['Author'] }}</li>
+        <li><strong>Publication Year:</strong> {{ book_details['Publication_Year'] }}</li>
+        <li><strong>Genre:</strong> {{ book_details['Genre'] }}</li>
+        <!-- Add more details as needed -->
+      </ul>
+    
+    </div>
+</body>
+</html>
